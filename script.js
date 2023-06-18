@@ -12,3 +12,5 @@ function volume_sphere(event) {
   var volumeField = document.getElementById('volume');
   volumeField.value = volume.toFixed(2); // Display volume with 2 decimal places
 }
+
+window.onload = document.getElementById('MyForm').onsubmit = volume_sphere;
